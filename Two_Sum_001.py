@@ -9,6 +9,9 @@ Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
+
+apply Hash Table
+ref. https://en.wikipedia.org/wiki/Hash_table
 '''
 
 
@@ -43,6 +46,13 @@ class Solution_better:
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+        """
+        """
+        Hash Table
+        
+        Search	
+        Average : O(1)
+        Worst case : O(n)
         """
         dict_temp = dict()
         for index, value in enumerate(nums):
